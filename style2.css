@@ -33,14 +33,14 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    width: 110%;
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #4caf42;
+    background-color: #af429f;
     color: #fff;
     padding: 10px;
     border: none;

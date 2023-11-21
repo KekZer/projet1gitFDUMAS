@@ -7,14 +7,27 @@
     <title>Liste de tâches</title>
 </head>
 <body>
-    <h1>Liste de tâches</h1>
-    <ul>
-        <li>Terminer la lecture du livre</li>
-        <li>Faire de l'exercice pendant 30 minutes</li>
-        <li>Écrire dans le journal</li>
-        <li>Penser à la vie</li>
-        <li>Pleurer en silence</li>
+    <header>
+        <h1>Ma Liste de Tâches</h1>
+    </header>
+    <section>
+        <ul>
+            <li>Terminer la lecture du livre</li>
+            <li>Faire de l'exercice pendant 30 minutes</li>
+            <li>Écrire dans le journal</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Ajouter une nouvelle tâche</h2>
+        <form action="/submit-form" method="post">
+            <label for="task">Nouvelle tâche :</label>
+            <input type="text" id="task" name="task" required>
 
-    </ul>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ma Liste de Tâches</p>
+    </footer>
 </body>
 </html>
