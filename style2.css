@@ -1,12 +1,12 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'comic sans ms', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #333;
+    color: #420;
 }
 
 ul {
@@ -40,7 +40,7 @@ textarea {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #4caf42;
     color: #fff;
     padding: 10px;
     border: none;
